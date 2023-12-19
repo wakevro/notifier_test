@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/Denver
+X-LIC-LOCATION:America/Denver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+TZNAME:MDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+TZNAME:MST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Denver:20230919T140000
+DTEND;TZID=America/Denver:20230919T142000
+DTSTAMP:20230909T005621Z
+ORGANIZER;CN=lexy@dropbox.com:mailto:lexy@dropbox.com
+UID:k9ghh7eos54fprdccdihnq39io@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=lexy@dropbox.com;X-NUM-GUESTS=0:mailto:lexy@dropbox.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=richardabhulimhen@gmail.com;X-NUM-GUESTS=0:mailto:richardabhulimhen
+ @gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=GoodTime Sync;X-NUM-GUESTS=0:mailto:dropbox.com_8rf71hnm5lrl46pdqdpenv5
+ lj8@group.calendar.google.com
+X-MICROSOFT-CDO-OWNERAPPTID:361194755
+CLASS:PUBLIC
+CREATED:20230909T005619Z
+DESCRIPTION:Hi Richard\,<br/><br/>Thank you for scheduling some time for us
+  to meet! I will give you a call at the # listed on your resume. If there i
+ s a different # you prefer\, please let me know. In the meantime\, please k
+ eep me posted if you have any questions or deadlines to be aware of at this
+  point.<br/><br/>Chat soon!<br />Thanks\,<br />Lexy <br/><br/>To reschedule
+  or cancel: <a href="https://a.goodtime.io/x/OBiLRwTDKy75rVRL">https://a.go
+ odtime.io/x/OBiLRwTDKy75rVRL</a> <br/><br/>Powered by <a href="https://meet
+ .goodtime.io/login?utm_source=a-goodtime-calendar-invite-footer&utm_medium=
+ calendar-invite&utm_campaign=sign-up-flow-test">goodtime.io</a>
+LAST-MODIFIED:20230909T005619Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Dropbox Recruiter Chat
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
